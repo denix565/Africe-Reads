@@ -2,13 +2,26 @@
     Padding : 0;
     Margin:0;
 }
+body{
+    margin: 2em;
+}
 
 h1{
     text-align: left;
     max-width: 100%;
     color: black;
+    padding-bottom: 10px;
 }
 p{
     max-width: 100%;
-
+    font-size: large;
+}
+li{
+    font-size: 17px;
+    margin: 25px;
+    /*line-height: 1.5;*/
+    margin: 10px;/* space between the horizontal lines in a list */
+  }
+ul{
+    padding-left: 20px;
 }
