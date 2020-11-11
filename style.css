@@ -6,22 +6,22 @@ body{
     margin: 2em;
 }
 
-h1{
+body h1{
     text-align: left;
     max-width: 100%;
     color: black;
     padding-bottom: 10px;
 }
-p{
+body p{
     max-width: 100%;
     font-size: large;
 }
-li{
+body li{
     font-size: 17px;
     margin: 25px;
     /*line-height: 1.5;*/
     margin: 10px;/* space between the horizontal lines in a list */
   }
-ul{
+body ul{
     padding-left: 20px;
 }
