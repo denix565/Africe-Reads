@@ -12,6 +12,9 @@
   width: 100%;
 
 }
+body{
+  background-color: aquamarine;
+}
 
 .studentNr{
   font-style: italic;
@@ -24,17 +27,29 @@
   text-align: center;
   height: auto;
   margin: 30px;
+  
 }
 
 h3{
   font-style: oblique;
   font-weight: bolder;
 }
+
+.team{
+background-color: bisque;
+  margin: 12px;
+  margin-top: 0px;
+}
+.goals{
+margin: 12px;
+background-color: aquamarine;
+}
+
+
 h1{
-  background-color: white;
-   text-align: left;
-    max-width: 100%;
-    padding-bottom: 4erpx;
+  text-align: left;
+  max-width: 100%;
+  padding-bottom: 4erpx;
 
 }
 .paragraf{
