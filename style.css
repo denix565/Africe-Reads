@@ -16,7 +16,7 @@ body{
 /*Denis*/
 body h1{
     font-family: sans-serif;
-    font-size: 5vw;
+    font-size: 18pt;
     text-align: left;
     max-width: 100%;
     color: black;
@@ -25,7 +25,7 @@ body h1{
 }
 body h2{
     font-family: sans-serif;
-    font-size: 2.5vw;
+    font-size: 18pt;
     text-align: left;
     max-width: 100%;
     color: black;
@@ -35,12 +35,12 @@ body h2{
 body p{
     font-family: sans-serif;
     max-width: 100%;
-    font-size: auto;
+    font-size: 18pt;
     line-height: 1.6;
 }
 body li{
     font-family: sans-serif;
-    font-size: 17px;
+    font-size: 18pt;
     margin: 25px;
     line-height: 1.6;
     /*line-height: 1.5;*/
@@ -59,6 +59,7 @@ body div{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
 
 }
 body img{
@@ -67,8 +68,12 @@ body img{
     width: 100%;
    
 }
+a.onHowerChangeSize:hover{
+    font-size: 125%;
+    text-decoration: none;
+}
 a.onHowerChangeSize{
-    font-size: 150%;
+    text-decoration: none;
 }
 
 .flex-container{
