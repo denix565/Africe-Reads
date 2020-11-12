@@ -2,10 +2,12 @@
     /*Padding : 0;
     Margin:0;*/
     box-sizing: border-box;
+    
 }
 
 html{
     scroll-behavior: smooth;
+
     
 }
 body{
@@ -81,6 +83,9 @@ a.onHowerChangeSize{
 }
 .text-container{
     text-align: none;
+}
+.outer-container{
+    
 }
 /*Denis*/
 @media screen and (max-width:600px){
