@@ -61,12 +61,10 @@ body div{
     margin-right: auto;
 
 }
-#imgage{
-    display: flex;
-    max-width: 150%;
-    max-height: 100%;
+body img{
+    max-height: 80%;
     height: auto;
-    width: auto;
+    width: 100%;
    
 }
 a.onHowerChangeSize{
