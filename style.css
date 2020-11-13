@@ -2,7 +2,7 @@
     /*Padding : 0;
     Margin:0;*/
     box-sizing: none;
-    /*border: 10px solid blue;*/
+    /*border: 1px solid blue; Please dont delet this line, I use it to see the boxes*/
     
 }
 
@@ -11,15 +11,17 @@ html{
 
     
 }
+/*Denis*/
 body{
     margin:0;
     background-color:#3F0F3F;
+    padding-left:40px;
+    padding-right:40px;
 }
 
-/*Denis*/
 body h1{
     font-family: sans-serif;
-    font-size: 18pt;
+    font-size: 5vw;
     text-align: left;
     max-width: 100%;
     color: black;
@@ -28,22 +30,22 @@ body h1{
 }
 body h2{
     font-family: sans-serif;
-    font-size: 18pt;
+    font-size: 2.5vw;
     text-align: left;
     max-width: 100%;
     color: black;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     line-height: 1.6;
 }
 body p{
     font-family: sans-serif;
     max-width: 100%;
-    font-size: 18pt;
+    font-size: auto;
     line-height: 1.6;
 }
 body li{
     font-family: sans-serif;
-    font-size: 18pt;
+    font-size: auto;
     margin: 25px;
     line-height: 1.6;
     /*line-height: 1.5;*/
@@ -63,16 +65,30 @@ body div{
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
-
 }
+.title{
+    text-align: center;
+}
+/*
 body img{
     max-height: 80%;
     height: auto;
     width: 100%;
-   
+    }
+    */
+
+.GirlImg{
+    height: auto;
+    max-width: 80%;
+    margin: 0;
 }
+.boxIMG{
+    max-width: auto;
+    height:388px;
+}
+
 a.onHowerChangeSize:hover{
-    font-size: 125%;
+    color: orangered;
     text-decoration: none;
 }
 a.onHowerChangeSize{
@@ -80,23 +96,48 @@ a.onHowerChangeSize{
 }
 
 .flex-container{
-    display: flexbox;
+    /*
+    column-count: 2;
+    margin: auto;
+     column-fill: auto;*/
 }
-.flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
+
 .text-container{
-    text-align: none;
+    text-align: left; /*adjust text align*/
     background-color: white;
+    max-width: 1000px;
+    margin:auto;
+    padding-bottom: 0px;
+    padding: 30px;
+    border-radius: 0px; /*removes the autopmaitc curving of edges*/
+    
+    
 }
 /*Denis*/
-@media screen and (max-width:600px){
-    #image{
-        max-width: 25% ;
-        height: auto;
+@media screen and (max-width:700px){
+    body h1{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+    }
+    body h2{
+        width: 100%;
+        position: relative;
+        text-align: left;
+        font-size: 20px;
+    }
+    .GirlImg{
+        min-height: 100%;
+        max-height: 100%;
+        margin: 0;
+    }
+    .boxIMG{
+       width: 80%;
+       height: 80%;
+    }
+    .text-container{
+        padding-bottom: 0px;
     }
 
 }
