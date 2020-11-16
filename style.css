@@ -1,74 +1,71 @@
 *{
     /*Padding : 0;
     Margin:0;*/
-    box-sizing: none;
+    /*box-sizing: none;
     /*border: 1px solid blue; Please dont delet this line, I use it to see the boxes*/
 
 }
 
 html{
     scroll-behavior: smooth;
-
-
+    font-family:sans-serif;
 }
 /*Mohammad*/
+
 .navbar {
-    max-width: auto;
-    position: relative;
-    right: 146px;
-    width: 77%;
-    background-color: black;
-    text-align: center;
-    position: fixed;
-    z-index: 1;
-    margin: 0;
-    padding: 0;
+  box-sizing:border-box;
+  width: 100%;
+  background-color: #3F0F3F;
+  background-image: linear-gradient(90deg, #9f05ff69 10%, #fd5e086b 100%);
+  text-align: center;
+  position: fixed;
+  z-index: initial;
+  margin-top: 0px;
+  left:0;
+  right:0;
+  top:0;
 }
 
 .navbar a {
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-    padding: 15px 30px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    margin: auto;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18pt;
 }
 
 .navbar a:hover {
-    background-color: azure;
-    color: black;
+  background-color: azure;
+  color: black;
 }
 
 header {
-	text-align: center;
-	width: 100%;
-	height: auto;
-	overflow: hidden ;
-  border-radius: 0 0 85% 85% / 70%;
+  text-align: center;
+	overflow: hidden;
+  border-radius: 0 0 85% 85% / 100%;
   margin-bottom: 20px;
 }
 header .overlay{
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
 	color: #FFF;
-	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
-
+  background-image: linear-gradient(90deg, #9f05ff69 10%, #fd5e086b 100%);
 }
 
 .overlay h1 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 80px;
+  font-size: 80px;
+  text-shadow: 1px 1px 1px #333;
 	margin-bottom: 30px;
   text-align: center;
   color: white;
 }
 
 .overlay h3,.overlay p {
-	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 button {
@@ -101,83 +98,61 @@ button a{
     font-size: clamp(13px, 5vw, 12px);
 
   }
-  .navbar a{
-    font-size: clamp(13px, 5vw, 12px);
-  }
-  .navbar{
-    position: relative;
-    display: inline-block;
-    flex-direction: row;
-  }
-
 }
 
 
 /*Denis*/
 body{
-    margin:0;
-    background-color:#3F0F3F;
-    padding-left:40px;
-    padding-right:40px;
+  margin:0;
+  background-color:#3F0F3F;
 }
 
 body h1{
-    font-family: sans-serif;
-    font-size: 5vw;
-    text-align: left;
-    max-width: 100%;
-    color: black;
-    padding-bottom: 10px;
-    line-height: 1.6;
+  font-size: 5vw;
+  text-align: left;
+  max-width: 100%;
+  color: black;
+  padding-bottom: 10px;
+  line-height: 1.6;
+  padding-top: 60px;
 }
 body h2{
-    font-family: sans-serif;
-    font-size: 18pt;
-    text-align: left;
-    color: black;
-    line-height: 1.6;
+  font-size: 18pt;
+  text-align: left;
+  color: black;
+  line-height: 1.6;
 }
 body p{
-    font-family: sans-serif;
-    max-width: 100%;
-    padding-top:0px;
-    font-size: auto;
-    line-height: 1.6;
-    margin-bottom: 0;
+  max-width: 100%;
+  padding-top:0px;
+  font-size: 18pt;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 body li{
-    font-family: sans-serif;
-    font-size: auto;
-    margin: 25px;
-    line-height: 1.6;
-    /*line-height: 1.5;*/
-    margin: 10px;/* space between the horizontal lines in a list */
+  font-size: auto;
+  margin: 25px;
+  line-height: 1.6;
+  /*line-height: 1.5;*/
+  margin: 10px;/* space between the horizontal lines in a list */
   }
 body ul{
-    font-family: sans-serif;
-    padding-left: 20px;
-    line-height: 1.6;
+  padding-left: 20px;
+  line-height: 1.6;
 }
+
 body div{
-    /*margin: 4vw;*/
-    padding: 10px;
-    max-width: 80%;
-    border-radius: 5px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
+  /*margin: 4vw;*/
+  padding: 10px;
+  border-radius: 5px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
 }
 .title{
-    text-align: center;
+  text-align: center;
 }
-/*
-body img{
-    max-height: 80%;
-    height: auto;
-    width: 100%;
-    }
-    */
 
 .GirlImg{
     height: auto;
@@ -204,13 +179,6 @@ a.onHowerChangeSize{
     text-decoration: none;
 }
 
-.flex-container{
-    /*
-    column-count: 2;
-    margin: auto;
-     column-fill: auto;*/
-}
-
 .text-container{
     text-align: left; /*adjust text align*/
     background-color: white;
@@ -225,29 +193,29 @@ a.onHowerChangeSize{
 /*Denis*/
 @media screen and (max-width:700px){
     body h1{
-        width: 100%;
-        position: relative;
-        text-align: center;
-        font-size: 30px;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      font-size: 30px;
     }
     body h2{
-        width: 100%;
-        position: relative;
-        text-align: left;
-        font-size: 20px;
+      width: 100%;
+      position: relative;
+      text-align: left;
+      font-size: 20px;
     }
     .GirlImg{
-        min-height: 100%;
-        max-height: 100%;
-        margin: 0;
-        padding-top: 10px;
+      min-height: 100%;
+      max-height: 100%;
+      margin: 0;
+      padding-top: 10px;
     }
     .boxIMG{
-       width: 80%;
-       height: 80%;
+      width: 80%;
+      height: 80%;
     }
     .text-container{
-        padding-bottom: 0px;
+      padding-bottom: 0px;
     }
 
 }
