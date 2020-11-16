@@ -13,8 +13,8 @@ html{
 }
 /*Mohammad*/
 .navbar {
-    max-width: 1000px;
-    position: absolute;
+    max-width: auto;
+    position: relative;
     right: 146px;
     width: 77%;
     background-color: black;
