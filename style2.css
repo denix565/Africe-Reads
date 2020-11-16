@@ -1,19 +1,28 @@
 *{
     Padding : 0;
     Margin:0;
+    box-sizing: border-box;
 }
+html{
+  font-size: 20px;
+  font-family:  "lato" Arial, sans-serif;
 
+}
 .container{
   display: grid;
   grid-template-columns: auto auto auto;
-  columns:0%;
+  columns: 0%
   grid-auto-rows: 0%;
   height: auto;
   width: 100%;
 
 }
 body{
-  background-color: aquamarine;
+    background-color: rgb(120, 100, 120);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:repeat; 
+    background-position: center center;
 }
 
 .studentNr{
@@ -26,7 +35,7 @@ body{
   font-size: 15px;
   text-align: center;
   height: auto;
-  margin: 30px;
+  margin: 50px;
   
 }
 
@@ -42,14 +51,20 @@ background-color: bisque;
 }
 .goals{
 margin: 12px;
-background-color: aquamarine;
+background-color: antiquewhite;
 }
 
 
 h1{
   text-align: left;
   max-width: 100%;
-  padding-bottom: 4erpx;
+  padding-bottom: 4px 10rem
+  text-transform:unset
+  letter-spacing: 2px;
+  border: 3px solid #fff;
+  
+
+
 
 }
 .paragraf{
@@ -60,6 +75,6 @@ h1{
 img{
 height: 400px;
 width: 100%;
-height: 90%;
+
 
 }
