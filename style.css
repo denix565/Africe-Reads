@@ -46,7 +46,8 @@ header {
 	width: 100%;
 	height: auto;
 	overflow: hidden ;
-	border-radius: 0 0 85% 85% / 70%;
+  border-radius: 0 0 85% 85% / 70%;
+  margin-bottom: 20px;
 }
 header .overlay{
 	width: 100%;
@@ -77,11 +78,13 @@ button {
 	border-radius: 50px;
 	color: #333;
 	background: #fff;
-	margin-bottom: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
 button:hover{
-	cursor: pointer;
+  cursor: pointer;
+  text-decoration: underline;
 }
 button a{
 	text-decoration: none;
