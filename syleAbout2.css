@@ -1,0 +1,355 @@
+*{
+    /*Padding : 0;
+    Margin:0;*/
+    /*box-sizing: none;
+    /*border: 1px solid blue; Please dont delet this line, I use it to see the boxes*/
+
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family:sans-serif;
+}
+/*Mohammad*/
+
+.navbar {
+  box-sizing:border-box;
+  width: 100%;
+
+  background-color: #2c0a2c;
+  text-align: center;
+  position: fixed;
+  z-index: initial;
+  margin-top: 0px;
+  left:0;
+  right:0;
+  top:0;
+}
+
+.navbar a {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18pt;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+header {
+  text-align: center;
+	overflow: hidden;
+}
+header .overlay{
+  max-width: 100%;
+	height: 100%;
+  background-image: url(pics/pattern.png); /*Picture taken from https://davidbaptistechirot.blogspot.com/2018/04/pattern-background-hd-png.html*/
+}
+
+.overlay h1 {
+  font-size: 80px;
+  text-shadow: 1px 1px 1px #333;
+	margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+  margin-bottom: 50px;
+  font-size: 18px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+button a{
+	text-decoration: none;
+}
+
+/*Denis*/
+body{
+  margin:0;
+  background-color:#3F0F3F;
+}
+
+body h1{
+  font-size: 5vw;
+  text-align: left;
+  max-width: 100%;
+  color: black;
+  padding-bottom: 10px;
+  line-height: 1.6;
+  padding-top: 60px;
+}
+body h2{
+  font-size: 18pt;
+  text-align: left;
+  color: black;
+  line-height: 1.6;
+}
+body p{
+  max-width: 100%;
+  padding-top:0px;
+  font-size: 18pt;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+body li{
+  font-size: auto;
+  margin: 25px;
+  line-height: 1.6;
+  /*line-height: 1.5;*/
+  margin: 10px;/* space between the horizontal lines in a list */
+  }
+body ul{
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+body div{
+  /*margin: 4vw;*/
+  padding: 10px;
+  border-radius: 5px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+.title{
+  text-align: center;
+}
+
+.GirlImg{
+    height: auto;
+    max-width: 80%;
+    margin: 0;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxIMG{
+    max-width: auto;
+    height:388px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.onHoverChangeSize:hover{
+    color: orangered;
+    text-decoration: none;
+}
+a.onHoverChangeSize{
+    text-decoration: none;
+}
+
+.text-container{
+    text-align: left; /*adjust text align*/
+    background-color: white;
+    max-width: 1000px;
+    margin:auto;
+    padding-bottom: 0px;
+    padding: 80px;
+    border-radius: 0px; /*removes the autopmaitc curving of edges*/
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 15px 15px #2c0a2c;
+}
+/*Denis*/
+@media screen and (max-width: 1200px) {
+
+  .overlay h1{
+    font-size: clamp(16px, 7vw, 34px) ;
+  }
+  .overlay h3{
+    font-size: clamp(13px, 1vw, 10px);
+  }
+  .overlay p{
+    font-size: clamp(13px, 5vw, 12px);
+
+  }
+}
+
+@media screen and (max-width:700px){
+    body h1{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      font-size: 30px;
+    }
+    body h2{
+      width: 100%;
+      position: relative;
+      text-align: left;
+      font-size: 20px;
+    }
+    .GirlImg{
+      min-height: 100%;
+      max-height: 100%;
+      margin: 0;
+      padding-top: 10px;
+    }
+    .boxIMG{
+      width: 80%;
+      height: 80%;
+    }
+    .text-container{
+      padding-bottom: 0px;
+    }
+
+}
+
+/* Mohammad footer*/
+footer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:auto;
+  padding-bottom: 0px;
+  padding: 30px;
+  background-color: #2c0a2c;
+  height: auto;
+}
+.svg_icon{
+text-align: center;
+  color: white;
+}
+.contact{
+  display: inline;
+  color:white;
+}
+.contact p{
+
+}
+.contact img, .contact p{
+  display: inline;
+  margin-right: 3px;
+}
+.partners, .partners a{
+  color: white;
+  text-decoration: none;
+}
+.partners h3{
+  text-align: right;
+}
+@media screen and (max-width:1200px){
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+    font-size: clamp(10px, 4vw, 15px)
+  }
+  }
+  @media screen and (max-width:766px){
+    .svg_icon h3,.contact p,.partners a,.partners h3{
+    font-size: clamp(10px, 2vw, 12px);
+  }
+  .partners{
+    line-height: 0px;
+    align-items: baseline;
+    }
+  .svg_icon h3{
+    text-align: center;
+  }
+}
+@media screen and (max-width:828px){
+  footer img{
+    max-width: 40px;
+  }
+}
+@media screen and (max-width:664px){
+  footer img{
+    max-width: 30px;
+}
+}
+@media screen and (max-width:614px){
+  footer img{
+    max-width: 20px;
+}
+.partners{
+  font-size: clamp(10px, 1vw, 12px);
+}
+.svg_icon{
+  align-items: baseline;
+}
+}
+@media screen and (max-width:545px){
+  footer img{
+    max-width: 15px;
+}
+.partners{
+  font-size: clamp(10px, 1vw, 6px);
+}
+.svg_icon h3{
+  text-align: center;
+  padding-left: 20px;
+}
+}
+@media screen and (max-width:516px){
+  .svg_icon{
+    position: relative;
+    left: -30px;
+  }
+  .partners{
+    position: relative;
+    right: -30px;
+  }
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+  	font-size: clamp(8px, 3vw, 7px)
+  }
+  footer img{
+  	max-width: -70%;
+  }
+  .contact img{
+    vertical-align:middle;
+  }
+}
+@media screen and (max-width:466px){
+  footer{
+    flex-direction: column;
+  }
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+  	font-size: clamp(10px, 3vw, 11px)
+  }
+  footer img{
+  	max-width: 16px;
+  }
+  .svg_icon{
+    width: 100%;
+    margin-left: 11%;
+  }
+  .partners {
+   margin-right: 50%;
+  }
+}
+@media screen and (max-width:368px){
+
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+  	font-size: 6px;
+  }
+}
+@media screen and (max-width:300px){
+
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+  	font-size: 4px;
+  }
+}
