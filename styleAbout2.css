@@ -8,9 +8,46 @@
 
 html{
     scroll-behavior: smooth;
-    font-family:sans-serif;
+    font-family:Calibri;
 }
+
 /*Mohammad*/
+.names{
+    font-style:oblique;
+font-weight: bolder;
+
+
+}
+.images{
+  height: 400px;
+ width: 100%;
+}
+
+.studentNr{
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  columns:0%;
+  grid-auto-rows: 0%;
+  height: auto;
+  width: 100%;
+
+}
+
+.container-item{
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  margin: 30px;
+height: 600px;
+
+
+  
+}
 
 .navbar {
   box-sizing:border-box;
@@ -285,6 +322,19 @@ text-align: center;
   footer img{
     max-width: 20px;
 }
+@media screen and (max-width:614px){
+   .images {
+   height:120px;
+   width: 100% ;
+}
+
+@media screen and (max-width:614px){
+  .studentNr{
+    max-width: 100%;
+    
+   
+}
+
 .partners{
   font-size: clamp(10px, 1vw, 12px);
 }
