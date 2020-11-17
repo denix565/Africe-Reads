@@ -5,10 +5,16 @@
 }
 html{
 
+<<<<<<< Updated upstream
   font-size: 20px;
   font-family:  "lato" Arial, sans-serif;
 
 
+=======
+.mainContainer{
+  margin-top: 30px;
+  margin: 10px;
+>>>>>>> Stashed changes
 }
 .container{
   display: grid;
@@ -17,12 +23,15 @@ html{
   grid-auto-rows: 0%;
   height: auto;
   width: 100%;
+<<<<<<< Updated upstream
   height: auto;
   color: white;
   background-color: #3F0F3F;
 
 
 
+=======
+>>>>>>> Stashed changes
 }
 body{
 
@@ -40,7 +49,10 @@ body{
   padding: 5px;
   font-size: 15px;
   text-align: center;
+<<<<<<< Updated upstream
   height: 100%;
+=======
+>>>>>>> Stashed changes
   margin: 30px;
   margin-bottom: 0px;
   
@@ -51,6 +63,7 @@ h3{
   font-weight: bolder;
 }
 
+<<<<<<< Updated upstream
 .team{
  background-color:  #92a8d1;;
  color: black;
@@ -68,3 +81,261 @@ img{
 width: 60%;
 height: 250px;
 }
+=======
+.about{
+width: 100%;
+}
+
+
+
+h1{
+  text-align: left;
+  max-width: 100%;
+  margin: 10px;
+
+}
+
+.images{
+width: auto;
+height: 250px;
+
+}
+/*header mohamed*/
+
+
+.navbar {
+
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    z-index: 1;
+    padding: 0;
+}
+
+.navbar a {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar a:hover {
+    background-color: azure;
+    color: black;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	overflow: hidden ;
+	border-radius: 0 0 85% 85% / 70%;
+}
+/*
+header .overlay{
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+
+}
+
+.overlay h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+.overlay h3,.overlay p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+*/
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+button a{
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+/*
+  .overlay h1{
+    font-size: clamp(16px, 7vw, 34px) ;
+  }
+  .overlay h3{
+    font-size: clamp(13px, 1vw, 10px);
+  }
+  .overlay p{
+    font-size: clamp(13px, 5vw, 12px);
+
+  }*/
+  .navbar a{
+    font-size: clamp(13px, 5vw, 12px);
+  }
+  .navbar{
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+  }
+
+}
+/* Mohammad footer*/
+footer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ width: 100%;
+  margin:15px;
+  text-align: center;
+  padding-bottom: 0px;
+  padding: 0%;
+  background-color: black;
+  height: auto;
+}
+.svg_icon{
+text-align: center;
+  color: white;
+  margin-left: 35px;
+
+}
+.contact{
+  display: inline;
+  color:white;
+}
+.contact p{
+
+}
+.contact img, .contact p{
+  display: inline;
+  margin-right: 3px;
+}
+.partners, .partners a{
+  color: white;
+  text-decoration: none;
+}
+.partners h3{
+  text-align: right;
+  margin-right: 35px;
+}
+@media screen and (max-width:1200px){
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+    font-size: clamp(10px, 4vw, 15px)
+  }
+  }
+  @media screen and (max-width:766px){
+    .svg_icon h3,.contact p,.partners a,.partners h3{
+    font-size: clamp(10px, 2vw, 12px);
+  }
+  .partners{
+    line-height: 0px;
+    align-items: baseline;
+    }
+  .svg_icon h3{
+    text-align: center;
+  }
+}
+@media screen and (max-width:828px){
+  footer img{
+    max-width: 40px;
+  }
+}
+@media screen and (max-width:664px){
+  footer img{
+    max-width: 30px;
+}
+}
+@media screen and (max-width:614px){
+  footer img{
+    max-width: 20px;
+}
+.partners{
+  font-size: clamp(10px, 1vw, 12px);
+}
+.svg_icon{
+  align-items: baseline;
+}
+}
+@media screen and (max-width:545px){
+  footer img{
+    max-width: 15px;
+}
+.partners{
+  font-size: clamp(10px, 1vw, 6px);
+}
+.svg_icon h3{
+  text-align: center;
+  padding-left: 20px;
+}
+}
+@media screen and (max-width:516px){
+  .svg_icon{
+    position: relative;
+    left: -30px;
+    
+  }
+  .partners{
+    position: relative;
+    right: -30px;
+  }
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+  	font-size: clamp(8px, 3vw, 7px)
+  }
+  footer img{
+  	max-width: -70%;
+  }
+  .contact img{
+    vertical-align:middle;
+  }
+}
+@media screen and (max-width:466px){
+  footer{
+    flex-direction: column;
+  }
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+  	font-size: clamp(10px, 3vw, 11px)
+  }
+  footer img{
+  	max-width: 16px;
+  }
+  .svg_icon{
+    width: 100%;
+    margin-left: 11%;
+  }
+  .partners {
+   margin-right: 50%;
+  }
+}
+@media screen and (max-width:368px){
+
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+  	font-size: 6px;
+  }
+}
+@media screen and (max-width:300px){
+
+  .svg_icon h3,.contact p,.partners a,.partners h3{
+  	font-size: 4px;
+  }
+}
+>>>>>>> Stashed changes
