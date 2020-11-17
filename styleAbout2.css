@@ -8,13 +8,13 @@
 
 html{
     scroll-behavior: smooth;
-    font-family:Calibri;
+    font-family:sans-serif;
 }
 
 /*Mohammad*/
 .names{
     font-style:oblique;
-font-weight: bolder;
+    font-weight: bolder;
 
 
 }
