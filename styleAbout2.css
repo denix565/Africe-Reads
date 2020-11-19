@@ -15,8 +15,8 @@ html{
 .names{
     font-style:oblique;
     font-weight: bolder;
-
-
+    width: 100%;
+ 
 }
 .images{
   height: 400px;
@@ -26,6 +26,10 @@ html{
 .studentNr{
   font-style: italic;
   font-weight: lighter;
+  font-size: smaller;
+  align-items: center;
+  width: 100%;
+ 
 }
 
 .container{
@@ -36,8 +40,8 @@ html{
   height: auto;
   width: 100%;
 
+ 
 }
-
 .container-item{
   padding: 5px;
   font-size: 15px;
@@ -45,8 +49,6 @@ html{
   margin: 30px;
 height: 600px;
 
-
-  
 }
 
 .navbar {
@@ -61,6 +63,8 @@ height: 600px;
   left:0;
   right:0;
   top:0;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .navbar a {
@@ -212,6 +216,7 @@ a.onHoverChangeSize{
     margin-bottom: 40px;
     margin-top: 40px;
     box-shadow: 1px 1px 15px 15px #2c0a2c;
+   
 }
 /*Denis*/
 @media screen and (max-width: 1200px) {
@@ -322,17 +327,40 @@ text-align: center;
   footer img{
     max-width: 20px;
 }
+/* Abdikadir responsive container*/
+
+@media screen and (max-width:900px){
+  .container{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 3px;
+  }
+  }
+
+  @media screen and (max-width:900px){
+  .container-item{
+
+    width: auto;
+  }
+  }
+
 @media screen and (max-width:614px){
    .images {
    height:120px;
-   width: 100% ;
+   width: 70%;
+   margin: 5px;
+  
 }
-
-@media screen and (max-width:614px){
+}
+@media screen and (max-width:1200px){
   .studentNr{
     max-width: 100%;
-    
-   
+    word-break: break-word;
+    display: inline-block;
+    margin: 0px;
+
+  
+}
 }
 
 .partners{
