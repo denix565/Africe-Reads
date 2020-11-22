@@ -234,9 +234,21 @@ footer{
   background-color: #2c0a2c;
   height: auto;
 }
-.svg_icon{
+.svg_icon {
 text-align: center;
   color: white;
+}
+.svg_icon img:hover, .svg_icon img:focus {  /*FIX THIS SELECT WITH TAB, TURN WHITE IN FOOTER*/
+  /*background-color: white;
+  color: black;*/
+  border: 2px solid white;
+  background-color: white;
+  outline-color: white !important;
+
+}
+.partners a:hover, .partners a:focus {
+  background-color: white;
+  color: black;
 }
 .contact{
   display: inline;
