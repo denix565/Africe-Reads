@@ -40,6 +40,8 @@ html{
 .navbar a:hover, .navbar a:focus {
   background-color: white;
   color: black;
+  outline: none;
+  font-weight: bold;
 }
 
 header {
@@ -242,14 +244,13 @@ text-align: center;
   /*background-color: white;
   color: black;*/
   border: 2px solid white;
-  background-color: white;
-  outline-color: white !important;
 
 }
 .partners a:hover, .partners a:focus {
   background-color: white;
   color: black;
   font-weight: bold;
+  outline: none;
 }
 .contact{
   display: column;
