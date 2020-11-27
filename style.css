@@ -270,9 +270,16 @@ text-align: center;
   /*background-color: white;
   color: black;*/
   border: 2px solid white;
+  background-color: white;
 
 }
 .partners a:hover, .partners a:focus {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  outline: none;
+}
+.contact p:hover, .contact p:focus{
   background-color: white;
   color: black;
   font-weight: bold;
