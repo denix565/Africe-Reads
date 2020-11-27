@@ -249,13 +249,14 @@ text-align: center;
 .partners a:hover, .partners a:focus {
   background-color: white;
   color: black;
+  font-weight: bold;
 }
 .contact{
-  display: inline;
+  display: column;
   color:white;
 }
 .contact p{
-
+ font-size: 17px;
 }
 .contact img, .contact p{
   display: inline;
@@ -273,9 +274,9 @@ text-align: center;
     font-size: clamp(10px, 4vw, 15px)
   }
   }
-  @media screen and (max-width:766px){
+@media screen and (max-width:766px){
     .svg_icon h3,.contact p,.partners a,.partners h3{
-    font-size: clamp(10px, 2vw, 12px);
+    font-size: clamp(10px, 7vw, 14px);
   }
   .partners{
     line-height: 0px;
@@ -296,74 +297,16 @@ text-align: center;
 }
 }
 @media screen and (max-width:614px){
-  footer img{
-    max-width: 20px;
-}
-.partners{
-  font-size: clamp(10px, 1vw, 12px);
-}
-.svg_icon{
-  align-items: baseline;
-}
-}
-@media screen and (max-width:545px){
-  footer img{
-    max-width: 15px;
-}
-.partners{
-  font-size: clamp(10px, 1vw, 6px);
-}
-.svg_icon h3{
-  text-align: center;
-  padding-left: 20px;
-}
-}
-@media screen and (max-width:516px){
-  .svg_icon{
-    position: relative;
-    left: -30px;
-  }
-  .partners{
-    position: relative;
-    right: -30px;
-  }
-  .svg_icon h3,.contact p,.partners a,.partners h3{
-  	font-size: clamp(8px, 3vw, 7px)
-  }
-  footer img{
-  	max-width: -70%;
-  }
-  .contact img{
-    vertical-align:middle;
-  }
-}
-@media screen and (max-width:466px){
   footer{
     flex-direction: column;
   }
-  .svg_icon h3,.contact p,.partners a,.partners h3{
-  	font-size: clamp(10px, 3vw, 11px)
+  .partners{
+    padding-right:6vh ;
   }
-  footer img{
-  	max-width: 16px;
-  }
-  .svg_icon{
-    width: 100%;
-    margin-left: 11%;
-  }
-  .partners {
-   margin-right: 50%;
-  }
-}
-@media screen and (max-width:368px){
 
-  .svg_icon h3,.contact p,.partners a,.partners h3{
-  	font-size: 6px;
-  }
 }
-@media screen and (max-width:300px){
-
-  .svg_icon h3,.contact p,.partners a,.partners h3{
-  	font-size: 4px;
+@media screen and (max-width:261px){
+  .contact p{
+    font-size: clamp(10px, 7vw, 11px);
   }
 }
