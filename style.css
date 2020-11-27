@@ -24,6 +24,7 @@ html{
   left:0;
   right:0;
   top:0;
+  border-radius:0;
 }
 
 .navbar a {
@@ -135,7 +136,7 @@ body div{
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  overflow: auto;
+  overflow: hidden;
 }
 .title{
   text-align: center;
@@ -179,10 +180,11 @@ a.onHoverChangeSize{
     box-shadow: 1px 1px 15px 15px #2c0a2c;
 }
 /*Denis*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1201px) {
+
 
   .overlay h1{
-    font-size: clamp(16px, 7vw, 34px) ;
+    font-size: 50px;
   }
   .overlay h3{
     font-size: clamp(13px, 1vw, 10px);
@@ -193,6 +195,9 @@ a.onHoverChangeSize{
  h1{
     font-size:10vw;
  }
+}
+
+@media screen and (max-width:915px){
 }
 
 @media screen and (max-width:700px){
