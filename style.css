@@ -231,19 +231,21 @@ a.onHoverChangeSize{
   }
 }
 
-@media scree and (max-width:632px){
+@media scree and (max-width:632px){ /* Continue Denis here*/
  
   .navbar {
     float: none;
     position: relative;
     margin-bottom: -30px;
+
   }
 
   .navbar a {
     width: 100%;
     padding:5px;
-    display: inline;
+    display: grid;
   }
+
 }
 
 
