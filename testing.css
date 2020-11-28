@@ -150,23 +150,6 @@ body div{
   margin-right: auto;
   overflow: hidden;
 }
-.about-container{
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex:3;
-  padding: 0;
-  z-index: 1;
-}
-.about-container ul{
-  padding: 0;
-}
-.about-container p{
-  margin: 0;
-}
-.about-container img{
-  max-width: 100%;
-}
 .title{
   text-align: center;
 }
@@ -286,7 +269,7 @@ footer{
   .overlay h2{
     font-size: 18px;
   }
-  .text-container, .about-text-container{
+  .text-container{
     padding: 40px;
   }
 }
@@ -343,9 +326,6 @@ footer{
   }
   .footer-container{
     padding-left: 40px;
-    flex-direction: column;
-  }
-  .about-container{
     flex-direction: column;
   }
 }
