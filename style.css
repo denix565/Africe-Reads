@@ -153,6 +153,10 @@ body div{
 .title{
   text-align: center;
 }
+.SubHeader{
+  font-size: 19px;
+  font-style: italic;
+}
 .image{
     max-width: auto;
     height:auto;
