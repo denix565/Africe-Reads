@@ -139,6 +139,7 @@ body li{
 body ul{
   padding-left: 20px;
   line-height: 1.6;
+  font-size: 18px;
 }
 body div{
   /*margin: 4vw;*/
@@ -151,6 +152,10 @@ body div{
 }
 .title{
   text-align: center;
+}
+.SubHeader{
+  font-size: 19px;
+  font-style: italic;
 }
 .image{
     max-width: auto;

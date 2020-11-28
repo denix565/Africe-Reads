@@ -89,7 +89,7 @@ button a{
 	text-decoration: none;
 }
 
-/*Denis*/
+/*Mohammad css work just in body (header and footer just copied from the main page) */
 body{
   margin:0;
   background-color:#3F0F3F;
@@ -103,7 +103,7 @@ body{
   padding-bottom: 0px;
   padding: 5%;
   padding-left: 10%;
-  border-radius: 0px; /*removes the autopmaitc curving of edges*/
+  border-radius: 0px;
   margin-bottom: 40px;
   margin-top: 40px;
   box-shadow: 1px 1px 15px 15px #2c0a2c;
@@ -111,8 +111,13 @@ body{
 .mohammad img,.abd img, .denis img{
   max-width: 80%;
 }
+.text-container img:hover, .text-container img:focus {
+  border: 2px black solid;
+  box-shadow: 1px 1px 15px 2px #2c0a2c;
+  outline: none;
+}
 
-/*Denis*/
+/*Mohammad*/
 
 /* Mohammad footer*/
 footer{
@@ -201,7 +206,7 @@ footer{
   .overlay h2{
     font-size: 18px;
   }
-  
+
   .footer-container > div{
     padding-left: 4%;
   }
