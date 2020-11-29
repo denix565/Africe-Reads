@@ -151,7 +151,7 @@ body div{
   overflow: hidden;
 }
 .about-container{
-  position: relative;
+  position: static;
   display: flex;
   flex-direction: row;
   flex:3;
@@ -306,18 +306,6 @@ footer{
   }
 }
 @media screen and (max-width:700px){
-  body h1{
-    width: 100%;
-    position: relative;
-    text-align: left;
-    font-size: 30px;
-  }
-  body h2{
-    width: 100%;
-    position: relative;
-    text-align: left;
-    font-size: 20px;
-  }
   .footer-container > div{
     min-width: 215px;
   }
