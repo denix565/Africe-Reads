@@ -156,13 +156,22 @@ body div{
   flex-direction: row;
   flex:3;
   padding: 0;
-  z-index: 1;
+  text-align: center;
 }
 .about-container ul{
   padding: 0;
 }
 .about-container p{
   margin: 0;
+}
+.about-container a{
+  border: 2px;
+  padding: 4px;
+  line-height: 2;
+}
+.about-container a:focus{
+  outline: 1px solid grey;
+  text-decoration: underline;
 }
 .about-container img{
   max-width: 100%;
