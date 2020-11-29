@@ -13,7 +13,6 @@ html{
 /*Mohammad*/
 header {
   text-align: center;
-	overflow: hidden;
 }
 header .overlay{
   box-sizing: content-box;
@@ -38,6 +37,7 @@ header .overlay{
 .navbar a {
   position: relative;
   display: inline-block;
+  max-width: 100%;
   margin: 10px;
   padding: 15px 30px;
   color: white;
@@ -62,7 +62,7 @@ header .overlay{
 }
 .overlay h2 {
   box-sizing: content-box;
-  width: 100%;
+  max-width: 100%;
   font-size: 25px;
   margin-bottom: 30px;
   text-align: center;
@@ -287,7 +287,7 @@ footer{
     padding-left: 4%;
   }
 }
-@media screen and (max-width:925px) {
+@media screen and (max-width:965px) {
   .overlay h1{
     font-size: 50px;
     padding-top: 140px;
