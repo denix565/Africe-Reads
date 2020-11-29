@@ -1,16 +1,12 @@
 *{
     Padding : 0;
     Margin:0;
-    /*box-sizing: none;
-    /*border: 1px solid blue; Please dont delet this line, I use it to see the boxes*/
-
 }
 
 html{
     scroll-behavior: smooth;
     font-family:sans-serif, Verdana;
 }
-/*Mohammad*/
 header {
   text-align: center;
 }
@@ -88,8 +84,6 @@ button:hover{
 button a{
 	text-decoration: none;
 }
-
-/*Denis*/
 body{
   margin:0;
   background-color:#3F0F3F;
@@ -101,7 +95,7 @@ body{
   margin:auto;
   padding-bottom: 0px;
   padding: 80px;
-  border-radius: 0px; /*removes the autopmaitc curving of edges*/
+  border-radius: 0px; /*removes the automatic curving of edges*/
   margin-bottom: 40px;
   margin-top: 40px;
   box-shadow: 1px 1px 15px 15px #2c0a2c;
@@ -133,7 +127,6 @@ body li{
   font-size: auto;
   margin: 25px;
   line-height: 1.6;
-  /*line-height: 1.5;*/
   margin: 10px;/* space between the horizontal lines in a list */
   }
 body ul{
@@ -142,7 +135,6 @@ body ul{
   font-size: 18px;
 }
 body div{
-  /*margin: 4vw;*/
   padding: 10px;
   border-radius: 5px;
   height: auto;
@@ -199,9 +191,6 @@ a.onHoverChangeSize:hover{
 a.onHoverChangeSize{
     text-decoration: none;
 }
-/*Denis*/
-
-/* Mohammad footer*/
 footer{
   background-color: #2c0a2c;
 }
@@ -310,7 +299,7 @@ footer{
     min-width: 215px;
   }
 }
-@media screen and (max-width:650px){ /* Continue Denis here*/
+@media screen and (max-width:650px){
   .navbar {
     float: none;
     position: relative;
